@@ -7,6 +7,7 @@
 
 html {
 	font-size: 62.5%;
+    /*height: 100vh;*/
 }
 
 body {
@@ -15,6 +16,7 @@ body {
 	line-height: 2;
 	margin: 0;
 	color: #999;
+    /*min-height: 100vh;*/
 	}
 
 h1, h2, h3 {
@@ -66,10 +68,10 @@ header {
     margin: 0 auto;
 	padding: 50px;
     background: black;
+    height: 25vh;
 }
 
 header > a {
-	/*color: #999;*/
     color: white;
 	font-size: 4rem;
 }
@@ -78,11 +80,9 @@ header a:hover {
 	-webkit-transform: translate(0, 10px);
 	-ms-transform: translate(0, 10px);
 	transform: translate(0, 10px);
+    color: #610103;
 }
 
-header a:hover {
-	color: #610103;
-}
 
 /*header img {
 	width: 50px;
@@ -135,36 +135,33 @@ nav a i {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 /* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 /* Internet Explorer */
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 /* Opera < 12.1 */
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-#presentation{
+#presentation, #monslider{
 	background: #610103;
 	text-align: center;
 	color: white;
 	padding: 100px 75px;
+    height: 75vh;
 }
 
 #presentation p, #monslider p {
@@ -371,17 +368,6 @@ button[type="reset"] {
 
 
 /*page TPOC*/
-#monslider {
-	background: #610103 !important;
-	text-align: center;
-	color: white;
-	padding: 100px 75px;
-}
-#monslider p {
-    font-size: 4rem;
-	padding-bottom: 50px;
-}
-
 .slide{
    	background: #610103; 
 }
